@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/product.css">
+  <link rel="stylesheet" href="./css/banner.css">
+</head>
+<body>
+  <!-- 轮播图 -->
+  <div class="banner">
+    <div class="album">
+    </div>
+    <i class="btn previous"></i>
+    <i class="btn next"></i>
+    <div class="operation">
+    </div>
+  </div>
+  <!-- 内容 -->
+  <div class="wrapper">
+    <div class="crumbs">
+      <span class="item">首页</span>
+      <span class="split">&gt;</span>
+      <span class="item">笔记本</span>
+    </div>
+    <div class="menu">
+      <ul class="row category">
+        <li class="item">分类:</li>
+        <li class="item">笔记本</li>
+        <li class="item">台式机</li>
+        <li class="item">智慧屏</li>
+      </ul>
+      <ul class="row discount">
+        <li class="item">服务优惠:</li>
+        <li class="item">仅看有货</li>
+        <li class="item">分期免息</li>
+        <li class="item">优惠商品</li>
+      </ul>
+      <ul class="row sort">
+        <li class="item">排序:</li>
+        <li class="item active" data-key="default">综合</li>
+        <li class="item" data-key="goodRate">好评率</li>
+        <li class="item" data-key="rateCount">评论数</li>
+        <li class="item" data-key="price">价格</li>
+      </ul>
+    </div>
+    <ul class="product">
+    </ul>
+  </div>
+  <script src="./json/product_data.js"></script>
+   <script src="./json/banner_data.js"></script>
+  <script src="./js/banner/banner.js"></script>
+  <script src="./js/utils/utils.js"></script>
+  <script src="./js/product/product.js"></script>
+</body>
+</html>

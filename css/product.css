@@ -1,0 +1,88 @@
+.wrapper .crumbs{
+  height: 63px;
+  line-height: 63px;
+  font-size: 12px;
+  color: #333;
+}
+.wrapper .crumbs:last-child{
+  color: #000;
+}
+.wrapper .menu{
+  padding: 0 24px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #000;
+}
+.wrapper .menu .row{
+  display: flex;
+}
+.wrapper .menu .row .item{
+  width: 104px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 12px;
+}
+.wrapper .menu .row .item.active{
+  color: #CF0A2C;
+}
+.wrapper .menu .row .item:first-child{
+  color: #666;
+}
+.wrapper .product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0 0;
+}
+.wrapper .product .item{
+  width: 291px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  background-color: #fff;
+}
+.wrapper .product .item.empty{
+  height: 0;
+}
+.wrapper .product .item:hover{
+  box-shadow: 0 0 10px 10px rgb(0 0 0 / 5%);
+}
+.wrapper .product .item a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .product .item a .album{
+  width: 180px;
+  height: 180px;
+  margin: 30px 0;
+}
+.wrapper .product .item a .title{
+  font-weight: 700;
+}
+.wrapper .product .item a .discount{
+  height: 19px;
+  margin: 8px 0 0;
+  color: #666;
+}
+.wrapper .product .item a .price{
+  margin: 15px 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #CF0A2C;
+}
+.wrapper .product .item a .welfare .tip{
+  margin: 0 3px;
+  padding: 0 3px;
+  font-size: 12px;
+  color: #CF0A2C;
+  border: 1px solid #CF0A2C;
+  border-radius: 3px;
+}
+.wrapper .product .item a .comment{
+  margin: 10px 0 15px;
+  font-size: 12px;
+  color: #333;
+}
+.wrapper .product .item a .comment .count{
+  margin-right: 8px;
+}

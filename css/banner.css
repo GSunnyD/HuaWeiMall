@@ -1,0 +1,60 @@
+.banner{
+  position: relative;
+  overflow: hidden;
+}
+.banner .album{
+  position: relative;
+  height: 550px;
+  transition: all 500ms ease;
+}
+.banner .album .item{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.banner > .album .item img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1920px;
+  height: 550px;
+}
+.banner .btn{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  z-index: 99;
+  display: inline-block;
+  width: 37px;
+  height: 63px;
+  background: url(../img/banner-arrowsprite.png) no-repeat
+}
+.banner .previous{
+  left: 450px;
+  background-position:  0 -360px;
+}
+.banner .previous:hover{
+  background-position: 0 -430px; 
+}
+.banner .next{
+  right: 50px;
+  background-position: -0px -508px;
+}
+.banner .next:hover{
+  background-position: 0 -578px;
+}
+.banner .operation .item{
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(241, 238, 238);
+}
+.banner .operation .item.active{
+  background-color: #f00;
+}
