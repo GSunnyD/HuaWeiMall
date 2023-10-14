@@ -1,2 +1,2 @@
 # HuaWeiMall
-仿华为商城(基于纯原生JS+HTML+CSS)
+原生JavaScript开发华为商城
